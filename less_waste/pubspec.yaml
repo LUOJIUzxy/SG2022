@@ -29,17 +29,40 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # camera permission
+  camera: 0.9.4+16
+  path_provider: ^2.0.1
+  path: ^1.8.0
+  gallery_saver: any
+  image_picker: ^0.8.3
+  # upload picture
+  dio: ^4.0.0
+  image_cropper: ^1.5.0
+  #anime dependence
+  rive: ^0.8.4
+  fancy_bottom_navigation: ^0.3.3
+  flutter_slidable: ^1.2.0
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  english_words: ^3.1.5 
+  english_words: ^4.0.0
+  sqflite: ^1.3.0
+  table_calendar: ^2.2.2
+  intl: ^0.16.1
+  fluttertoast: ^8.0.9
+  flutter_animated_dialog: ^2.0.1
+  syncfusion_flutter_charts: ^18.4.49
+  animated_text_kit: ^4.2.1
+
+
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_launcher_icons: ^0.7.4
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -47,12 +70,44 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^1.0.0
 
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-
+  assets:
+    - assets/anime/birth.riv
+    - assets/anime/breath.riv
+    - assets/anime/chid-breathe.riv
+    - assets/anime/chid-fly.riv
+    - assets/anime/female_breath.riv
+    - assets/anime/female_fly.riv
+    - assets/anime/hardshake.riv
+    - assets/anime/shake.riv
+    - assets/anime/fly.riv
+    - assets/anime/wasted.riv
+    - assets/anime/noWasted.riv
+    - assets/images/backyard.png
+    - assets/images/tree.png
+    - assets/achievements/initialization.png
+    - assets/achievements/first_encounter.png
+    - assets/achievements/nesting.png
+    - assets/achievements/newborn.png
+    - assets/achievements/courtship.png
+    - assets/achievements/new_coming.png
+    - assets/achievements/snow_owl.png
+    - assets/achievements/tawny_owl.png
+    - assets/achievements/asio_owl.png
+    - assets/achievements/mystery.png
+    - assets/category/fruits.png
+    - assets/category/seafood.png
+    - assets/category/meat.png
+    - assets/category/vegetable.png
+    - assets/category/milk.png
+    - assets/category/egg.png
+    - assets/category/cheese.png
+    - assets/category/others.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
